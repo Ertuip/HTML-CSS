@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        h1 {
+            margin-block-start: 0.3em;
+            margin-block-end: 0.3em;
+        }
+        header {
+            width: 98%;
+            height: 100px;
+            color: white;
+            border: 10px solid white;
+            padding: 5px;
+            margin: 10px 0px;
+            margin-block-start: 0.1em;
+            margin-block-end: 0.3em;
+            border-radius: 20px;
+        }
+
+        article {
+            background-color: rgb(109, 102, 102);
+        }
+
+        article > aside {
+            background-color: rgb(87, 84, 84);
+            box-shadow: 1px 1px 1px black;
+        }
+
+        main {
+            margin-block-start: 0.1em;
+            margin-block-end: 0.3em;
+            width: 98%;
+            height: 355px;
+            color: white;
+            border: 10px solid white;
+            padding: 5px;
+            margin: 10px 0px;
+            border-radius: 20px;
+        }
+
+        nav {
+            padding: 3px;
+            border: 3px solid rgb(74 77 74);
+            background-color: rgb(74 77 74);
+            color: white;
+        }
+
+        a {
+            color: white;
+        }
+
+        a:visited {
+            color: cornsilk;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site </h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <h2>Assunto 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores odio consequatur facilis quaerat nam, dolorum debitis rem animi incidunt. Officiis iusto, ea expedita assumenda quisquam amet sunt aut quam itaque?</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre tesugiro</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic distinctio rem est veritatis reprehenderit dolorum voluptatibus, ullam numquam, pariatur eum nihil dolorem possimus illo aspernatur explicabo assumenda deserunt aut voluptas.</p>
+                <aside>
+                Sobre o autor tesugiro
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

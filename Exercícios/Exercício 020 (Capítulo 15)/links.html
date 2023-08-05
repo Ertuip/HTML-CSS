@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline ;
+        }
+        
+        a:active {
+            color: rgb(196, 141, 188);
+        }
+        
+        a::after {
+            content: ' trolo griss kkkkkk |';
+            color: black; 
+            font-weight: 100;
+        }
+
+        .especial::after {
+            content: ' mãe, o griss moxtrou o pitu na iscola';
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+        <ul>
+           <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório Github</a></li>
+           <li class="especial"><a href="https://youtube.com/cursoemvideo" target="_blank">Canal do Youtube</a></li>
+           <li><a href="https://www.cursoemvideo.com" target="_blank">Site CursoEmVídeo</a></li> 
+        </ul>
+</body>
+</html>
