@@ -142,6 +142,24 @@ main a:hover {
     color: var(--cor4);
 }
 
+#cont {
+    position: relative;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    background: var(--cor5);
+    background-size: 100% 100%;
+    padding-bottom: 58%;
+}
+
+#video {
+    position: absolute;  
+    transform: translate(-50%, -50%);
+    top: 50%; 
+    left: 50%;
+    width: 94%;
+    height: 90%;
+}
+
 aside {
     background-color: var(--cor1);
     padding: 10px;
